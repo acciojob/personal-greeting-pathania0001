@@ -6,9 +6,7 @@ const App = () => {
 
   return (
     <div>
-      {/* Do not remove the main div */}
 
-      {/* Input Field */}
       <input
         type="text"
         placeholder="Enter your name"
@@ -16,7 +14,6 @@ const App = () => {
         onChange={(e) => setName(e.target.value)}
       />
 
-      {/* Greeting (only when name is not empty) */}
       {name && <h2>Hello, {name}!</h2>}
     </div>
   );
